@@ -10,7 +10,7 @@ license=('GPL3')
 makedepends=('git')
 depends=('bash')
 provides=('genlog')
-source=("${pkgname/-git}::git+https://gitorious.org/genlog/genlog.git")
+source=("${pkgname/-git}::git+https://gitlab.com/genlog/genlog.git")
 md5sums=('SKIP')
 
 pkgver() {
